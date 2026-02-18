@@ -20,6 +20,10 @@ class Zomato  {
 		price =130.00;
 		return price;
 	}
+	else if(foodName == "Juice") {
+		price= 60.00;
+		return price;
+	}
 	else {
 	System.out.println();
 	
