@@ -1,4 +1,4 @@
-class JobPortal {
+class JobsPortal {
  
   public static String[] searchJobsByCompany(String companyName)  {
   

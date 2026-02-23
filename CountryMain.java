@@ -1,4 +1,4 @@
-public class CountryRunner {
+public class CountryMain {
 
     public static void main(String[] args) {
 		
@@ -26,7 +26,7 @@ public class CountryRunner {
         };
 
         for(String country : countries){
-            String[] states = Country.findStatesByCountry(country); // Call method
+            String[] states = Country.findStatesByCountry(country);
             System.out.println("States/Regions in " + country + ":");
             for(String state : states){
                 System.out.println("- " + state);

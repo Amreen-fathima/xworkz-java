@@ -1,21 +1,4 @@
-// class HospitalRunner  {
-
-  // public static void main (String[] hos)  {
-     // System.out.println("main started");
-	   // String specialization = " General Medicine ";
-	   // String[] doctors  = Hospital.findDoctorsBySpecialization(specialization);
-	   // Hospital.getDoctors(doctors);
-	   
-	   // specialization= "Ortho";
-	   // doctors = Hospital.findDoctorsBySpecialization(specialization);
-	   // Hospital.getDoctors(doctors);
-	   
-	   // System.out.println("main ended");
-    // }
-// }
-
-
-class HospitalRunner {
+class Hospital1Runner {
 
     public static void main(String[] args) {
 

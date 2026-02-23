@@ -1,52 +1,8 @@
-// class Hospital{
- 
-    // public static String[] findDoctorsBySpecialization(String specialization) {
-	  // System.out.println("invoked  findDoctorsBySpecialization");
-	
-	  // if(specialization == "General Medicine") {
-	     // String[] generalMedicineDoctors = {"Dr.Yashwanth ", "Dr.Anita ", "Dr.Rakshitha  "}; 
-		 // System.out.println("General medicine doctors are found");
-	     // return generalMedicineDoctors;
-	  // }
-	  
-	  // else if (specialization == "Ortho ")  {
-	    // String[] orthoDoctors = {"Dr.Gngadhar", "Dr.Vikas Rao"};
-	    // System.out.println("Ortho doctors are found");
-	    // return orthoDoctors;
-	  // }
-	  
-	  // else {
-		  // System.out.println(specialization + "not found here");
-	  // }
-	
-	  // return null;
-	// }
-	
-	// public static void getDoctors(String[] doctors) {
-		
-		// System.out.println("fetching doctors...");
-		// System.out.println("---------------------------");
-		// for (String doctor : doctors) {
-			// System.out.println(doctor);
-			
-		// }
-
-		 // System.out.println("Above are the doctors List");
-		 // System.out.println("---------------------------");
-		 
-	// }	
-
-// }
-
-
-
-
-
-class Hospital {
+class Hospital1 {
 
     static String[] findDoctorsBySpecialization(String specialization) {
 
-        if (specialization.equals("Cardiac Sciences")) {
+        if (specialization=="Cardiac Sciences") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -57,7 +13,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Dental Science")) {
+        else if (specialization=="Dental Science") {
             String[] doctors = {
                 "Dr. Asha", "Dr. Kiran", "Dr. Meena",
                 "Dr. Varun", "Dr. Tejas", "Dr. Harsha",
@@ -68,7 +24,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Dermatology")) {
+        else if (specialization=="Dermatology") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ravi", "Dr. Suma",
                 "Dr. Karthik", "Dr. Mehul", "Dr. Priya",
@@ -79,7 +35,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Diabetology/Endocrinology")) {
+        else if (specialization=="Diabetology/Endocrinology") {
             String[] doctors = {
                 "Dr. Pradeep", "Dr. Swati", "Dr. Nikhil",
                 "Dr. Ananya", "Dr. Rajesh", "Dr. Priya",
@@ -90,7 +46,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("ENT")) {
+        else if (specialization=="ENT") {
             String[] doctors = {
                 "Dr. Ritu", "Dr. Ajay", "Dr. Nisha",
                 "Dr. Vikram", "Dr. Priya", "Dr. Kiran",
@@ -112,7 +68,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Foetal Medicine")) {
+        else if (specialization=="Foetal Medicine") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ramesh", "Dr. Priya",
                 "Dr. Karthik", "Dr. Meera", "Dr. Varun",
@@ -123,7 +79,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Gastroenterology and Hepatobiliary Sciences")) {
+        else if (specialization=="Gastroenterology and Hepatobiliary Sciences") {
             String[] doctors = {
                 "Dr. Ritu", "Dr. Ajay", "Dr. Nisha",
                 "Dr. Vikram", "Dr. Priya", "Dr. Kiran",
@@ -134,7 +90,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("General Surgery")) {
+        else if (specialization=="General Surgery") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -145,7 +101,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Haematology")) {
+        else if (specialization=="Haematology") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -156,7 +112,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Infectious Diseases")) {
+        else if (specialization=="Infectious Diseases") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -167,7 +123,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Infertility medicine")) {
+        else if (specialization=="Infertility medicine") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -178,7 +134,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Internal Medicine")) {
+        else if (specialization=="Internal Medicine") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -189,7 +145,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Mental Health and Behavioural Sciences")) {
+        else if (specialization=="Mental Health and Behavioural Sciences") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -200,7 +156,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Nephrology")) {
+        else if (specialization=="Nephrology") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -211,7 +167,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Neurointerventional Radiology")) {
+        else if (specialization=="Neurointerventional Radiology") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -233,7 +189,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Neurosurgery")) {
+        else if (specialization=="Neurosurgery") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -244,7 +200,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Obstetrics and Gynaecology")) {
+        else if (specialization=="Obstetrics and Gynaecology") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -255,7 +211,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Oncology")) {
+        else if (specialization=="Oncology") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -266,7 +222,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Ophthalmology")) {
+        else if (specialization=="Ophthalmology") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -277,7 +233,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Organ Transplant")) {
+        else if (specialization=="Organ Transplant") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -288,7 +244,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Orthopaedics")) {
+        else if (specialization=="Orthopaedics") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -299,7 +255,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Paediatrics")) {
+        else if (specialization=="Paediatrics") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -321,7 +277,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Plastic and Reconstructive Surgery")) {
+        else if (specialization=="Plastic and Reconstructive Surgery") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -332,7 +288,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Pulmonology")) {
+        else if (specialization=="Pulmonology") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -343,7 +299,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Radiology")) {
+        else if (specialization=="Radiology") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -365,7 +321,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Support Specialties")) {
+        else if (specialization=="Support Specialties") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -376,7 +332,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Thoracic Surgery")) {
+        else if (specialization=="Thoracic Surgery") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -387,7 +343,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Transfusion Medicine")) {
+        else if (specialization=="Transfusion Medicine") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -398,7 +354,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Urology")) {
+        else if (specialization=="Urology") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -409,7 +365,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Endocrine Surgery")) {
+        else if (specialization=="Endocrine Surgery") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -420,7 +376,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Vascular Surgery")) {
+        else if (specialization=="Vascular Surgery") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -431,7 +387,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Liver Transplant and Hepatobiliary Sciences")) {
+        else if (specialization=="Liver Transplant and Hepatobiliary Sciences") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -442,7 +398,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Palliative Medicine")) {
+        else if (specialization=="Palliative Medicine") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -453,7 +409,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Medical Genetics")) {
+        else if (specialization=="Medical Genetics") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -464,7 +420,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Pain and Palliative Medicine")) {
+        else if (specialization=="Pain and Palliative Medicine") {
             String[] doctors = {
                 "Dr. Ramesh", "Dr. Suresh", "Dr. Mahesh",
                 "Dr. Kavitha", "Dr. Anil", "Dr. Priya",
@@ -475,7 +431,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Geriatric Medicine")) {
+        else if (specialization=="Geriatric Medicine") {
             String[] doctors = {
                 "Dr. Anita", "Dr. Ritu", "Dr. Kiran",
                 "Dr. Priya", "Dr. Meera", "Dr. Varun",
@@ -486,7 +442,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Critical Care")) {
+        else if (specialization=="Critical Care") {
             String[] doctors = {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
@@ -497,7 +453,7 @@ class Hospital {
             return doctors;
         }
 
-        else if (specialization.equals("Nuclear Medicine")) {
+        else if (specialization=="Nuclear Medicine") {
             String[] doctors = {
                 "Dr. Neha", "Dr. Arjun", "Dr. Kavitha",
                 "Dr. Rohit", "Dr. Deepak", "Dr. Sneha",
@@ -508,7 +464,7 @@ class Hospital {
             return doctors;
         }
 
-        return null; // If specialization doesn't match
+        return null; 
     }
 
     static void displayDoctors(String[] doctors) {

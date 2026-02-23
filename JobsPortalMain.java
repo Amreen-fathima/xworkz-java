@@ -1,4 +1,4 @@
-class JobPortalRunner {
+class JobsPortalMain {
 
     public static void main(String[] args) {
 

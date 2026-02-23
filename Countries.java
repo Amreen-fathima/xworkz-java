@@ -1,4 +1,4 @@
-class Country {
+class Countries {
 
 public static String[] findStatesByCountry(String countryName) {
 if (countryName.equals("Afghanistan")) {
