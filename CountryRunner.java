@@ -1,4 +1,4 @@
-public class CountryExecutor {
+public class CountryRunner {
 
     public static void main(String[] args) {
 		

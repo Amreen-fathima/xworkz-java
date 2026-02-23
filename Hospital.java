@@ -403,7 +403,7 @@ class Hospital {
                 "Dr. Rohit", "Dr. Kavitha", "Dr. Anil",
                 "Dr. Priya", "Dr. Rajesh", "Dr. Varun",
                 "Dr. Sneha", "Dr. Arjun", "Dr. Meera",
-				, "Dr. Kiran", "Dr. Leena", "Dr. Deepak",
+				"Dr. Kiran", "Dr. Leena", "Dr. Deepak",
                 "Dr. Swati", "Dr. Nikhil", "Dr. Vishal"
             };
             return doctors;
