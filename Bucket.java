@@ -1,19 +1,23 @@
 class Bucket {
 
-    String color;
-    int capacity;
-    String material;
-    int price;
-    String brand;
+       String brand;
+       String color;
+       String material;
+       int capacity;
+       int price;
 
-    Bucket(){
-    }
+// Default constructor
+       Bucket() {
 
-    Bucket(String color,int capacity,String material,int price,String brand){
-        this.color=color;
-        this.capacity=capacity;
-        this.material=material;
-        this.price=price;
-        this.brand=brand;
-    }
+       }
+
+// Parameterized constructor
+   Bucket(String brand, String color, String material, int capacity, int price) {
+   this.brand = brand;
+   this.color = color;
+   this.material = material;
+   this.capacity = capacity;
+   this.price = price;
+ }
+
 }

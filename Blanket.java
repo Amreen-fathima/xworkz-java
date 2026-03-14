@@ -1,21 +1,20 @@
 class Blanket {
+    String brand;
+    String material;
+    String color;
+    String size;    
+    double weight;   
+    int price;
 
-String color;
-String material;
-int price;
-String brand;
-int size;
-int weight;
+    Blanket() {
+    }
 
-Blanket(){
-}
-
-Blanket(String color,String material,int price,String brand,int size,int weight){
-this.color=color;
-this.material=material;
-this.price=price;
-this.brand=brand;
-this.size=size;
-this.weight=weight;
-}
+    Blanket(String brand, String material, String color, String size, double weight, int price) {
+        this.brand = brand;
+        this.material = material;
+        this.color = color;
+        this.size = size;
+        this.weight = weight;
+        this.price = price;
+    }
 }

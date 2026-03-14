@@ -1,4 +1,4 @@
-class Executor {
+class BangleExecutor {
 
 public static void main(String[] args){
 	
