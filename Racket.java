@@ -1,22 +1,34 @@
 class Racket {
 
-int a1,a2,a3,a4,a5,a6,a7,a8,a9,a10;
+String brand;
+String type;
+double weight;
+double length;
+String material;
+String gripType;
+int price;
+String color;
+String playerUsed;
+int rating;
 
 Racket(){
 }
 
-Racket(int a1,int a2,int a3,int a4,int a5,int a6,int a7,int a8,int a9,int a10){
+Racket(String brand, String type, double weight, double length,
+       String material, String gripType, int price,
+       String color, String playerUsed, int rating){
 
-this.a1=a1;
-this.a2=a2;
-this.a3=a3;
-this.a4=a4;
-this.a5=a5;
-this.a6=a6;
-this.a7=a7;
-this.a8=a8;
-this.a9=a9;
-this.a10=a10;
+this.brand = brand;
+this.type = type;
+this.weight = weight;
+this.length = length;
+this.material = material;
+this.gripType = gripType;
+this.price = price;
+this.color = color;
+this.playerUsed = playerUsed;
+this.rating = rating;
 
 }
+
 }
